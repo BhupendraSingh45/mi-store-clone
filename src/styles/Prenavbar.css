@@ -1,0 +1,36 @@
+.prenav{
+    background-color: rgb(29, 28, 28);
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+    color: white;
+}
+.prenav > div{
+    padding: 0.4vmax;
+display: flex;
+align-items: center;
+}
+
+.prenav > div >span{
+    color: rgba(180, 180, 180, 0.644);
+    font-size: 0.8vmax;
+    font-weight: 100;
+}
+
+.prenav > div svg {
+    fill: rgba(180, 180, 180);
+}
+
+
+.prenav > div > a{
+color: rgba(180, 180, 180);
+font-size: 0.9vmax;
+font-family: 'Gill sans', 'Gill sans MI', calibri, 'Trebuchet MS',sans-serif;
+font-weight: 300;
+margin: 1vmax;
+text-decoration: none;
+}
+
+.prenav > div > a:hover{
+   color: white; 
+
+}
