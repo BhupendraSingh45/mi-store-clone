@@ -15,6 +15,7 @@ import ProductReviews from "./components/ProductReviews.js"
 
 import Videos from './components/Videos.js';
 import Banner from "./components/Banner.js"
+import Footer from "./components/Footer.js"
 
 const banner=obj.banner;
 function App () {
@@ -45,6 +46,7 @@ function App () {
      <Videos Videos={obj.videos}/>
      <Heading text="IN THE PRESS"/>
      <Banner banner={obj.banner}/>
+     <Footer footer={obj.footer} />
       </Router>
     </div>
 
